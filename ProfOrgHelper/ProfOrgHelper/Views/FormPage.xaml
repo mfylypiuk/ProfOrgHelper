@@ -5,7 +5,9 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              xmlns:local="clr-namespace:ProfOrgHelper;assembly=ProfOrgHelper"
-             x:Class="ProfOrgHelper.Views.FormPage">
+             x:Class="ProfOrgHelper.Views.FormPage"
+             Title="Бланк на получение мат. помощи">
+    
     <ContentPage.Content>
         <StackLayout Spacing="20" Padding="15">
             <Label Text="Для получения материальной помощи необходимо заполнить бланк." />
