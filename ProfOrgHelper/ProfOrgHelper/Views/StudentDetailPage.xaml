@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ProfOrgHelper.Views.StudentDetailPage"
+             Title="{Binding Title}">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Spacing="20" Padding="15">
+                <Label Text="Имя:" FontSize="Medium" />
+                <Label Text="{Binding Student.Name}" FontSize="Small"/>
+                <Label Text="Форма обучения:" FontSize="Medium" />
+                <Label Text="{Binding Student.LearningForm}" FontSize="Small"/>
+                <Label Text="Состоит в профкоме:" FontSize="Medium" />
+                <Label Text="{Binding Student.ConsistOfProfKom}" FontSize="Small"/>
+                <Label Text="Иногородний:" FontSize="Medium" />
+                <Label Text="{Binding Student.Nonresident}" FontSize="Small"/>
+                <Label Text="Состоит в браке:" FontSize="Medium" />
+                <Label Text="{Binding Student.Married}" FontSize="Small"/>
+                <Label Text="Дети:" FontSize="Medium" />
+                <Label Text="{Binding Student.Children}" FontSize="Small"/>
+                <Label Text="Семейные обстоятельства:" FontSize="Medium" />
+                <Label Text="{Binding Student.FamilyEmergency}" FontSize="Small"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

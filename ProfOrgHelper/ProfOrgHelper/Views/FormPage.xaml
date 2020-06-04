@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             xmlns:local="clr-namespace:ProfOrgHelper;assembly=ProfOrgHelper"
+             x:Class="ProfOrgHelper.Views.FormPage">
+    <ContentPage.Content>
+        <StackLayout Spacing="20" Padding="15">
+            <Label Text="Для получения материальной помощи необходимо заполнить бланк." />
+            <Label Text="Пожалуйста, ознакомьтесь с образцом бланка." />
+            <Image x:Name="FormImage" Source="https://i.imgur.com/2dlEew0.png" WidthRequest="300" HeightRequest="300" />
+            <Button x:Name="ChangeImageButton" Text="Изменить" Clicked="ChangeImageButton_Clicked" />
+            <Button x:Name="DeleteImageButton" Text="Удалить" Clicked="DeleteImageButton_Clicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
